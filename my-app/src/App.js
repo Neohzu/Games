@@ -10,11 +10,11 @@ import './App.css';
 function App() {
   const [user, setUser] = useState(null);
 
-  onAuthStateChanged(auth, (user) => {
-    if (user) {
-      setUser(user)
-    }
-  });
+  // onAuthStateChanged(auth, (user) => {
+  //   if (user) {
+  //     setUser(user)
+  //   }
+  // });
 
   return (
     <div className="App">
