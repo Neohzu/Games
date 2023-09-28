@@ -7,7 +7,7 @@ import '../App.css';
 const Home = ({ user }) => {
   return (
     <div className="home">
-      <h1>SALUT RICHARD, <span></span>{user.displayName}</h1>
+      <h1>SALUT RICHARD, Aaaaaaa<span></span>{user.displayName}</h1>
       <img src={user.photoURL} alt="" />
       <button className="button signout" onClick={() => auth.signOut()}>Sign out</button>
     </div>
